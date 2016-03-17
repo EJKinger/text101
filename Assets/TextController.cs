@@ -13,8 +13,10 @@ public class TextController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown("space")){
+		if (Input.GetKey("space")){
 			text.text = "Space bar pressed!";
+		} else {
+			text.text = "Hello World!";
 		}
 	}
 }
