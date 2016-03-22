@@ -44,6 +44,7 @@ public class TextController : MonoBehaviour {
 	
 	}
 	
+	#region state handler methods
 	void state_cell () {
 		text.text = "You awake in a damp, colorless pit of a cell, " +
 					"more fit for an animal than a human.  A broken mirror (M) " +
@@ -151,4 +152,5 @@ public class TextController : MonoBehaviour {
 			myState = States.cell;
 		}
 	}
+	#endregion
 }
