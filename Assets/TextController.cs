@@ -145,7 +145,7 @@ public class TextController : MonoBehaviour {
 		}
 	}
 	void state_lose () {
-		text.text = "The guard has disgust written on his face.  He shakes his head and raises " +
+		text.text = "The guard has disgust written all over  his face.  He shakes his head and raises " +
 					"a pistol.  You're too tired to be afraid.  Just so tired. Do you hear the shot? " +
 					"Do you feel any pain?  Did any of it really matter?";
 		if (Input.GetKeyDown("space")){
