@@ -12,7 +12,7 @@ public class TextController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		myState = States.cell;
-		text.text = "Space bar to begin...";
+		text.text = "Space bar to begin... :)";
 	}
 	
 	// Update is called once per frame
