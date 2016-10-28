@@ -49,8 +49,8 @@ public class TextController : MonoBehaviour {
 		text.text = "You awake in a damp, colorless pit of a cell, " +
 					"more fit for an animal than a human.  A broken mirror (M) " +
 					"does little to convince you that this place was ever " +
-					"anything more beautiful.  You curl up on the floor, wrapping " + 
-					"yourself in a thin sheet (S) that is little more than a rag and stare " +
+					"anything  beautiful.  You curl up on the floor, wrapping " + 
+					"yourself in the  thin sheet (S) that is little more than a rag and stare " +
 					"at the only thing that isn't falling apart, a shiny steel lock (L) on your cell door.";
 		if (Input.GetKeyDown("m")){
 			myState = States.mirror;
